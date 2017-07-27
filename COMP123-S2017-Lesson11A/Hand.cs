@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Linlin Han
+ * Number: 300883493
  * Date: July 27, 2017
  * Description: This is the Hand class
  * It inherits from the CardList class
  * Version: 0.4 - Fixed a bug - non-implemented _initialize method
  */
 
-namespace COMP123_S2017_Lesson11A
+namespace COMP123_S2017_Lab25
 {
     public class Hand : CardList
     {
@@ -28,7 +29,7 @@ namespace COMP123_S2017_Lesson11A
         /// </summary>
         protected override void _initialize()
         {
-            // This method is currently empty
+            // This is currently empty
         }
 
         // PUBLIC METHODS

@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Linlin Han
+ * Number: 300883493
  * Date: July 25, 2017
  * Description: Demo for Lesson 11
  * Version: 0.4 - Updated the Program class to include comments for Lab 25
  */
 
-namespace COMP123_S2017_Lesson11A
+namespace COMP123_S2017_Lab25
 {
     class Program
     {

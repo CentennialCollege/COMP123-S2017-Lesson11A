@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Linlin Han
+ * Number: 300883493
  * Date: July 25, 2017
  * Description: This is the Deck class.
  * It inherits from the CardList class
- * Version: 0.5 - Added Deal1 method
+ * Version: 0.6 - Added Deal5 method
  */
 
-namespace COMP123_S2017_Lesson11A
+namespace COMP123_S2017_Lab25
 {
     public class Deck : CardList
     {
@@ -105,5 +106,15 @@ namespace COMP123_S2017_Lesson11A
             return firstCard;
         }
 
+        public Hand Deal5()
+        {
+            Hand hand = new Hand();
+            for (int i = 1; i<= 5; i++)
+            {
+                Card card_i = Deal1();
+                hand.Add(card_i);
+            }
+            return hand;
+        }
     }
 }
